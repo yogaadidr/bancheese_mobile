@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_dashboard"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Dashboard"/>
+        <item
+                android:id="@+id/nav_transaksi"
+                android:icon="@drawable/baseline_shopping_cart_black_36dp"
+                android:title="Transaksi"/>
+        <item
+                android:id="@+id/nav_laporan"
+                android:icon="@drawable/baseline_assessment_black_36dp"
+                android:title="Laporan"/>
+        <item
+                android:id="@+id/nav_nota"
+                android:icon="@drawable/baseline_receipt_black_36dp"
+                android:title="Nota"/>
+        <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/baseline_settings_black_36dp"
+                android:title="Pengaturan"/>
+        <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/baseline_directions_run_black_36dp"
+                android:title="Logout"/>
+    </group>
+
+
+</menu>

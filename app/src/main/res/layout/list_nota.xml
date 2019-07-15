@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="wrap_content" android:id="@+id/layout_nota"
+                                                   android:foreground="?android:selectableItemBackground">
+
+    <TextView
+            android:text="Rp. 0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/text_nota_nominal" android:layout_marginTop="16dp"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" android:textSize="16sp" android:textColor="@color/colorBlack"
+            android:textStyle="bold"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/text_nota_detail"
+            app:layout_constraintTop_toBottomOf="@+id/text_nota_nominal"
+            app:layout_constraintStart_toStartOf="@+id/text_nota_nominal"
+            android:layout_marginTop="8dp" android:textColor="@color/colorBlack"
+            android:layout_marginBottom="16dp" app:layout_constraintBottom_toBottomOf="parent"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/text_nota_date"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="16dp" app:layout_constraintBaseline_toBaselineOf="@+id/text_nota_nominal"
+            android:textColor="@color/colorBlack"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

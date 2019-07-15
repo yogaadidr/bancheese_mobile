@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/dashboard_popup_password"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Ubah Password" app:showAsAction="withText" android:enabled="true"/>
+    <item
+            android:id="@+id/dashboard_popup_logout"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="Logout" app:showAsAction="withText"/>
+</menu>
